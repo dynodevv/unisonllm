@@ -39,7 +39,7 @@ kotlinxSerializationJson = "1.7.3"
 core = "1.15.0"
 splashscreen = "1.0.1"
 datastore = "1.1.1"
-richtext = "1.0.0"
+richtext = "0.20.0"
 
 [libraries]
 # AndroidX Core
@@ -61,6 +61,7 @@ compose-material3-adaptive-navigation = { group = "androidx.compose.material3.ad
 compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
 compose-animation = { group = "androidx.compose.animation", name = "animation" }
 compose-runtime = { group = "androidx.compose.runtime", name = "runtime" }
+compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
 
 # Navigation
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
@@ -122,7 +123,8 @@ compose = [
     "compose-material3-windowsizeclass",
     "compose-foundation",
     "compose-animation",
-    "compose-runtime"
+    "compose-runtime",
+    "compose-material-icons-extended"
 ]
 
 compose-adaptive = [
